@@ -2,6 +2,8 @@
 ## Devlogs
 ### W1
 Write your W1 activity Devlog here.
+camera will keep staying when cat is walking.
+https://donghul8-code.itch.io/inclassproject1
 
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.

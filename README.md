@@ -16,8 +16,10 @@ activity1
 1. parameters: float/bool return type: string
 2. parameters: float 
 3. parameters: float return type: bool
+
 activity2
 1.classes are different blueprints of a car, and components are the real parts of a car encoutering the different blueprints. member varaibles are different components, and methods are the functions they can do.
+
 activity3
 1.because the value of color is growing exponentially.
 

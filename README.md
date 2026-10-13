@@ -17,6 +17,9 @@ activity1
 2. parameters: float 
 3. parameters: float return type: bool
 activity2
+classes are different blueprints of a car, and components are the real parts of a car encoutering the different blueprints. member varaibles are different components, and methods are the functions they can do.
+activity3
+because the value of color is growing exponentially.
 
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 

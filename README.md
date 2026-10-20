@@ -24,7 +24,7 @@ activity3
 1.because the value of color is growing exponentially.
 
 ### W4
-#table 7
+table7
 1.I added rigidbodies to cat and soccerball and goal is trigger on.
 2.When I tested first, the time showed always 0000...016, and I found the reason is I wrote wrong code timer = Timedelta.Time, so it only showed time of every frame. Then I corrected it to timer += Timedelta.Time, it worked as timing.
 

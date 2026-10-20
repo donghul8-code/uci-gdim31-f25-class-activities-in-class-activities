@@ -23,6 +23,11 @@ activity2
 activity3
 1.because the value of color is growing exponentially.
 
+### W4
+table7
+1.I added rigidbodies to cat and soccerball and goal is trigger on.
+2.When I tested first, the time showed always 0000...016, and I found the reason is I wrote wrong code timer = Timedelta.Time, so it only showed time of every frame. Then I corrected it to timer += Timedelta.Time, it worked as timing.
+
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
 - Low-poly environment: https://assetstore.unity.com/packages/3d/environments/landscapes/low-poly-simple-nature-pack-162153 

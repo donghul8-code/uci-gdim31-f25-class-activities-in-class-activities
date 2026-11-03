@@ -28,6 +28,11 @@ activity3
 1. I added rigidbodies to cat and soccerball and goal is trigger on.
 2. When I tested first, the time showed always 0000...016, and I found the reason is I wrote wrong code timer = Timedelta.Time, so it only showed time of every frame. Then I corrected it to timer += Timedelta.Time, it worked as timing.
 
+### W5
+1. this class need a variable to store Deer's target which is position. a transform variable can perfectly fit this requirement. And also a variable to store AI navigation method which has type of NavMeshAgent.
+2. It needs Start() for static object and Update() for dynamic object. Because, for static one, after first movement, deer will stay at that position, but for dynamic one, deer is always walking during gameplay.
+3. this method let Deer walk through the setted target by using AI navigation and setting target.
+
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
 - Low-poly environment: https://assetstore.unity.com/packages/3d/environments/landscapes/low-poly-simple-nature-pack-162153 

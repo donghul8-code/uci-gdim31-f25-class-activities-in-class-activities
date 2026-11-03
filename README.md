@@ -29,7 +29,7 @@ activity3
 2. When I tested first, the time showed always 0000...016, and I found the reason is I wrote wrong code timer = Timedelta.Time, so it only showed time of every frame. Then I corrected it to timer += Timedelta.Time, it worked as timing.
 
 ### W5
-1. this class need a variable to store Deer's target which is position. a transform variable can perfectly fit this requirement. And also a variable to store AI navigation method which has type of NavMeshAgent.
+1. this class need a variable to store Deer's target object. a transform variable can perfectly fit this requirement. And also a NavMeshAgent variable to access Deer's NavMeshAgent component.
 2. It needs Start() for static object and Update() for dynamic object. Because, for static one, after telling deer where to go first time, deer will go to there and stay at that position, but for dynamic one, deer is always walking during gameplay and destination is always updated. 
 3. this method let Deer walk to the destination by AI navigation system.
 

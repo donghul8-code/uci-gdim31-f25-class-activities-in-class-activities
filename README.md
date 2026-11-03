@@ -30,8 +30,8 @@ activity3
 
 ### W5
 1. this class need a variable to store Deer's target which is position. a transform variable can perfectly fit this requirement. And also a variable to store AI navigation method which has type of NavMeshAgent.
-2. It needs Start() for static object and Update() for dynamic object. Because, for static one, after first movement, deer will stay at that position, but for dynamic one, deer is always walking during gameplay.
-3. this method let Deer walk through the setted target by using AI navigation and setting target.
+2. It needs Start() for static object and Update() for dynamic object. Because, for static one, after telling deer where to go first time, deer will go to there and stay at that position, but for dynamic one, deer is always walking during gameplay and destination is always updated. 
+3. this method let Deer walk to the destination by AI navigation system.
 
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 

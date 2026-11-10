@@ -35,14 +35,18 @@ activity3
 
 ### W6
 -planning
-1. Add a speed variable for bat movement.
-2. Add a boolean to check if the bat is chasing.
-3. Add a Transform reference to the Cat player.
-4. Create a StartChasing() method.
-5. Create a StopChasing() method.
-6. Use Vector2.MoveTowards() to move the bat toward the player.
-7. BatManager will decide when bats start and stop chasing based on distance.
+1. Bat follows the player.
+2. Add speed.
+3. Start chasing.
+4. Stop chasing.
+5. Check player distance.
+6. Add bat messages.
+7. Store messages in an array.
+8. Pick random messages.
+9. Add a timer for messages.
+10. Stop chasing when the player is too far away.
 -https://docs.google.com/document/d/1crDX6_ljdbrT8OOdQbNwN7QxS_CrQY8VUW1fGK32XYQ/edit?tab=t.td22qoj399or
 
+#
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
 - Low-poly environment: https://assetstore.unity.com/packages/3d/environments/landscapes/low-poly-simple-nature-pack-162153 

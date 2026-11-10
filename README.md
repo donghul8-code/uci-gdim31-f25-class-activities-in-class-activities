@@ -38,10 +38,10 @@ activity3
 1. Add a speed variable for bat movement.
 2. Add a boolean to check if the bat is chasing.
 3. Add a Transform reference to the Cat player.
-4.Create a StartChasing() method.
-5.Create a StopChasing() method.
-6.Use Vector2.MoveTowards() to move the bat toward the player.
-7.BatManager will decide when bats start and stop chasing based on distance.
+4. Create a StartChasing() method.
+5. Create a StopChasing() method.
+6. Use Vector2.MoveTowards() to move the bat toward the player.
+7. BatManager will decide when bats start and stop chasing based on distance.
 Create a BatW6 class.
 -https://docs.google.com/document/d/1crDX6_ljdbrT8OOdQbNwN7QxS_CrQY8VUW1fGK32XYQ/edit?tab=t.td22qoj399or
 ### W1

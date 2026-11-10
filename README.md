@@ -42,8 +42,7 @@ activity3
 5. Create a StopChasing() method.
 6. Use Vector2.MoveTowards() to move the bat toward the player.
 7. BatManager will decide when bats start and stop chasing based on distance.
-Create a BatW6 class.
 -https://docs.google.com/document/d/1crDX6_ljdbrT8OOdQbNwN7QxS_CrQY8VUW1fGK32XYQ/edit?tab=t.td22qoj399or
-### W1
+
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
 - Low-poly environment: https://assetstore.unity.com/packages/3d/environments/landscapes/low-poly-simple-nature-pack-162153 

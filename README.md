@@ -33,6 +33,17 @@ activity3
 2. It needs Start() for static object and Update() for dynamic object. Because, for static one, after telling deer where to go first time, deer will go to there and stay at that position, but for dynamic one, deer is always walking during gameplay and destination is always updated. 
 3. this method let Deer walk to the destination by AI navigation system.
 
+### W6
+-planning
+1. Add a speed variable for bat movement.
+2. Add a boolean to check if the bat is chasing.
+3. Add a Transform reference to the Cat player.
+4.Create a StartChasing() method.
+5.Create a StopChasing() method.
+6.Use Vector2.MoveTowards() to move the bat toward the player.
+7.BatManager will decide when bats start and stop chasing based on distance.
+Create a BatW6 class.
+-https://docs.google.com/document/d/1crDX6_ljdbrT8OOdQbNwN7QxS_CrQY8VUW1fGK32XYQ/edit?tab=t.td22qoj399or
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
 - Low-poly environment: https://assetstore.unity.com/packages/3d/environments/landscapes/low-poly-simple-nature-pack-162153 

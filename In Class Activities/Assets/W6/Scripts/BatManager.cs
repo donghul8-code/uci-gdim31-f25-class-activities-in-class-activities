@@ -78,7 +78,7 @@ public class BatManager : MonoBehaviour
 
             if (Vector2.Distance(bat.transform.position, _playerTransform.position) <=_overlapDistance)
             {
-                CreateReactions(_bats[i]);
+                CreateReactions(bat);
             }
         }
         // You will need to check the Vector3 documentation to find a method

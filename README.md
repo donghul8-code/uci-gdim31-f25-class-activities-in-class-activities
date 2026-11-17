@@ -33,20 +33,14 @@ activity3
 2. It needs Start() for static object and Update() for dynamic object. Because, for static one, after telling deer where to go first time, deer will go to there and stay at that position, but for dynamic one, deer is always walking during gameplay and destination is always updated. 
 3. this method let Deer walk to the destination by AI navigation system.
 
-### W6
--planning
-1. Bat follows the player.
-2. Add speed.
-3. Start chasing.
-4. Stop chasing.
-5. Check player distance.
-6. Add bat messages.
-7. Store messages in an array.
-8. Pick random messages.
-9. Add a timer for messages.
-10. Stop chasing when the player is too far away.
+### W7
+1. planning
+-Bat follows the player. Add speed. Start chasing. Stop chasing. Check player distance. Add bat messages. Store messages in an array. Pick random messages. Add a timer for messages. Stop chasing when the player is too far away.
+2. link
 -https://docs.google.com/document/d/1crDX6_ljdbrT8OOdQbNwN7QxS_CrQY8VUW1fGK32XYQ/edit?tab=t.td22qoj399or
 
+### W8
+1. bacause Vector3.forward always points in the world's forward direction. If use it, Muskrat will moves along the world z axis instead of moving toward the direction it facing. By changing to transform.forward, Muskrat can move toward in it's own direction.
 #
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
 - Low-poly environment: https://assetstore.unity.com/packages/3d/environments/landscapes/low-poly-simple-nature-pack-162153 

@@ -41,6 +41,15 @@ activity3
 
 ### W8
 1. bacause Vector3.forward always points in the world's forward direction. If use it, Muskrat will moves along the world z axis instead of moving toward the direction it facing. By changing to transform.forward, Muskrat can move toward in it's own direction.
+
+### W9
+#3D project plan 
+1. Planned the game concept.
+2. Reviewed the project rubric and requirements.
+3. Identified the main GameObjects and Components.
+4. Created a game system diagram for the final project.
+5. Planned the obstacle, collection and timer systems.
+  
 #
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
 - Low-poly environment: https://assetstore.unity.com/packages/3d/environments/landscapes/low-poly-simple-nature-pack-162153 

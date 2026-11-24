@@ -43,7 +43,7 @@ activity3
 1. bacause Vector3.forward always points in the world's forward direction. If use it, Muskrat will moves along the world z axis instead of moving toward the direction it facing. By changing to transform.forward, Muskrat can move toward in it's own direction.
 
 ### W9
-#3D project plan 
+3D project plan 
 1. Planned the game concept.
 2. Reviewed the project rubric and requirements.
 3. Identified the main GameObjects and Components.
